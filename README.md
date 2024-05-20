@@ -4,8 +4,12 @@ The primary serialization protocols are in c, in the c folder, however, c++ is g
 # Usage:
 
 ```
-$ make
-$ ./run # runs cpp/main.cpp
+$ make # Compile cpp/main.cpp
+$ ./run 
+```
+
+```
+$ make format # Format code
 ```
 
 ## A note on endianness

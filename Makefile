@@ -1,6 +1,6 @@
 CC = /usr/bin/gcc
 FILE_SUFFIXES = '.*\.\(c\|h\)' 
-FORMAT_TARGET = clang-format -i -style=Mozilla
+FORMAT_TARGET = clang-format -i 
 
 #PATHS
 SRC_PATH = c/src
