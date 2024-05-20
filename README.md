@@ -11,12 +11,12 @@ $ ./run
 You can run any of the examples in c/src/impl, just switch the line in the makefile (make sure to run `make clean` first)
 
 ```
+EXE_FILE = impl/main.c
+#EXE_FILE = impl/main2.c
+#EXE_FILE = impl/main3.c
+#EXE_FILE = impl/performance.c
 #EXE_FILE = impl/cmd_vel.c
-#EXE_FILE = impl/cmd_vel.c
-#EXE_FILE = impl/cmd_vel.c
-#EXE_FILE = impl/cmd_vel.c
-#EXE_FILE = impl/cmd_vel.c
-EXE_FILE = impl/ping.c
+#EXE_FILE = impl/ping.c
 ```
 
 ```
