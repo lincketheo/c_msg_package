@@ -1,0 +1,15 @@
+Cmd_vel:
+  float linear
+  float angular
+
+Data:
+  imu:
+    float coordinate x
+    float coordinate y
+    float coordinate z
+
+Realtime pipe:
+  n x m array of float weights
+
+Cmd:
+  See protocols
