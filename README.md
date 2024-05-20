@@ -4,8 +4,19 @@ The primary serialization protocols are in c, in the c folder, however, c++ is g
 # Usage:
 
 ```
-$ make # Compile cpp/main.cpp
+$ make 
 $ ./run 
+```
+
+You can run any of the examples in c/src/impl, just switch the line in the makefile (make sure to run `make clean` first)
+
+```
+#EXE_FILE = impl/cmd_vel.c
+#EXE_FILE = impl/cmd_vel.c
+#EXE_FILE = impl/cmd_vel.c
+#EXE_FILE = impl/cmd_vel.c
+#EXE_FILE = impl/cmd_vel.c
+EXE_FILE = impl/ping.c
 ```
 
 ```

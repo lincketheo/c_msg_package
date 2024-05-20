@@ -5,7 +5,12 @@ FORMAT_TARGET = clang-format -i
 #PATHS
 SRC_PATH = c/src
 LIB_FILES = data_messages.c data.c ping_message.c checksum.c rmt_messages.c
-EXE_FILE = impl/cmd_vel.c
+EXE_FILE = impl/main.c
+#EXE_FILE = impl/main2.c
+#EXE_FILE = impl/main3.c
+#EXE_FILE = impl/performance.c
+#EXE_FILE = impl/cmd_vel.c
+#EXE_FILE = impl/ping.c
 BUILD_PATH = build
 BIN_PATH = $(BUILD_PATH)/bin
 LIB_PATH = $(BUILD_PATH)/lib
